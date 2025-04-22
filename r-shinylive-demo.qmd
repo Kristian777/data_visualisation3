@@ -11,7 +11,7 @@ filters:
 ## Introduction {.unnumbered}
 
 Data visualisation is an important topic within statistics as it helps us to understand data. 
-The visualisations, for example graphs or charts, make it easier to identify patterns and outliers in 
+Visualisations make it easier to identify patterns and outliers in 
 data sets which could be difficult to spot by looking at the raw data alone. As data visualisation techniques also 
 make it easier to communicate statistical concepts, it is an important topic for a wide range of subject areas, 
 including business and economics, 
@@ -117,7 +117,7 @@ shinyApp(ui = app_ui, server = server)
 ```
 
 
-Histograms are not to be confused with bar charts. While histograms are used to represent quantitative data, bar charts are used to represent categorical data. The heights of the rectangular bars in a bar chart represent the number of observations in each category. Gaps between bars in bar charts are often included to clearly differentiate them from histograms. 
+Histograms are not to be confused with bar charts. While histograms are used to represent quantitative data, bar charts are used to represent categorical data. The heights of the rectangular bars in a bar chart represent the frequencies, or number of observations in each category. Gaps between bars in bar charts are often included to clearly differentiate them from histograms. 
 
 
 ### Example 2.1 {.unnumbered}
